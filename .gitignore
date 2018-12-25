@@ -1,0 +1,10 @@
+# jekyll generated locally
+Gemfile.lock
+_site/
+
+# pdflatex auxiliary
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
