@@ -1,1 +1,26 @@
-theme: jekyll-theme-minimal
+# Site settings
+title: César Torres
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: fed136
+  secondary: fec503 
+  secondary-dark: 000
+
+# Social networks usernames (many more available: envelope, google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: instagram
+    url: https://www.instagram.com/cesarsanchezprojects
+  - title: youtube
+    url: https://www.youtube.com/channel/UCLY9GprpJlXEDVvaWiS3cgw
+  - title: linkedin
+    url: https://www.linkedin.com/in/cesartorresmusic
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Vigo
+  - line: Pontevedra
+
+# Build settings
+markdown: kramdown
+permalink: pretty
