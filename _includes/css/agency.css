@@ -660,6 +660,7 @@ aside.clients img {
 }
 
 section#contact {
+    width: 105%;
     background-color: #222;
     background-image: url(../img/map-image.png);
     background-position: center;

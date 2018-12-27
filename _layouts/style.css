@@ -6,5 +6,6 @@
 }
 
 .bg-png {
+    width: 105%;
 	background: #fff url(../img/light_mosaic.png) repeat 0 0;
 }
