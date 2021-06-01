@@ -1020,3 +1020,44 @@ fieldset[disabled] .btn-spotify.active {
   color: #1db954;
   background-color: #fff;
 }
+.btn-youtube {
+  color: #fff;
+  background-color: #dd4b39;
+  border-color: rgba(0, 0, 0, 0.2);
+}
+.btn-youtube:hover,
+.btn-youtube:focus,
+.btn-youtube:active,
+.btn-youtube.active,
+.open > .dropdown-toggle.btn-youtube {
+  color: #fff;
+  background-color: #c23321;
+  border-color: rgba(0, 0, 0, 0.2);
+}
+.btn-youtube:active,
+.btn-youtube.active,
+.open > .dropdown-toggle.btn-youtube {
+  background-image: none;
+}
+.btn-youtube.disabled,
+.btn-youtube[disabled],
+fieldset[disabled] .btn-youtube,
+.btn-youtube.disabled:hover,
+.btn-youtube[disabled]:hover,
+fieldset[disabled] .btn-youtube:hover,
+.btn-youtube.disabled:focus,
+.btn-youtube[disabled]:focus,
+fieldset[disabled] .btn-youtube:focus,
+.btn-youtube.disabled:active,
+.btn-youtube[disabled]:active,
+fieldset[disabled] .btn-youtube:active,
+.btn-youtube.disabled.active,
+.btn-youtube[disabled].active,
+fieldset[disabled] .btn-youtube.active {
+  background-color: #dd4b39;
+  border-color: rgba(0, 0, 0, 0.2);
+}
+.btn-youtube .badge {
+  color: #dd4b39;
+  background-color: #fff;
+}
