@@ -979,3 +979,44 @@ fieldset[disabled] .btn-yahoo.active {
   color: #720e9e;
   background-color: #fff;
 }
+.btn-spotify {
+  color: #fff;
+  background-color: #1db954;
+  border-color: rgba(0, 0, 0, 0.2);
+}
+.btn-spotify:hover,
+.btn-spotify:focus,
+.btn-spotify:active,
+.btn-spotify.active,
+.open > .dropdown-toggle.btn-spotify {
+  color: #fff;
+  background-color: #168d40;
+  border-color: rgba(0, 0, 0, 0.2);
+}
+.btn-spotify:active,
+.btn-spotify.active,
+.open > .dropdown-toggle.btn-spotify {
+  background-image: none;
+}
+.btn-spotify.disabled,
+.btn-spotify[disabled],
+fieldset[disabled] .btn-spotify,
+.btn-spotify.disabled:hover,
+.btn-spotify[disabled]:hover,
+fieldset[disabled] .btn-spotify:hover,
+.btn-spotify.disabled:focus,
+.btn-spotify[disabled]:focus,
+fieldset[disabled] .btn-spotify:focus,
+.btn-spotify.disabled:active,
+.btn-spotify[disabled]:active,
+fieldset[disabled] .btn-spotify:active,
+.btn-spotify.disabled.active,
+.btn-spotify[disabled].active,
+fieldset[disabled] .btn-spotify.active {
+  background-color: #1db954;
+  border-color: rgba(0, 0, 0, 0.2);
+}
+.btn-spotify .badge {
+  color: #1db954;
+  background-color: #fff;
+}
