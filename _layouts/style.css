@@ -21,6 +21,12 @@
 
 /** ## footer **/
 
+.fa-gmail2020 {
+    content: url(../img/gmail2020.svg);
+    height: 0.89em;
+    width: auto;
+}
+
 .fa {
     font-size: 2em; }
 

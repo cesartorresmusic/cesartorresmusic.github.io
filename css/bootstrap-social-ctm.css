@@ -1061,3 +1061,44 @@ fieldset[disabled] .btn-youtube.active {
   color: #dd4b39;
   background-color: #fff;
 }
+.btn-gmail2020 {
+  color: #fff;
+  background-color: #fff;
+  border-color: rgba(0, 0, 0, 0.2);
+}
+.btn-gmail2020:hover,
+.btn-gmail2020:focus,
+.btn-gmail2020:active,
+.btn-gmail2020.active,
+.open > .dropdown-toggle.btn-gmail2020 {
+  color: #fff;
+  background-color: #e6e6e6;
+  border-color: rgba(0, 0, 0, 0.2);
+}
+.btn-gmail2020:active,
+.btn-gmail2020.active,
+.open > .dropdown-toggle.btn-gmail2020 {
+  background-image: none;
+}
+.btn-gmail2020.disabled,
+.btn-gmail2020[disabled],
+fieldset[disabled] .btn-gmail2020,
+.btn-gmail2020.disabled:hover,
+.btn-gmail2020[disabled]:hover,
+fieldset[disabled] .btn-gmail2020:hover,
+.btn-gmail2020.disabled:focus,
+.btn-gmail2020[disabled]:focus,
+fieldset[disabled] .btn-gmail2020:focus,
+.btn-gmail2020.disabled:active,
+.btn-gmail2020[disabled]:active,
+fieldset[disabled] .btn-gmail2020:active,
+.btn-gmail2020.disabled.active,
+.btn-gmail2020[disabled].active,
+fieldset[disabled] .btn-gmail2020.active {
+  background-color: #fff;
+  border-color: rgba(0, 0, 0, 0.2);
+}
+.btn-gmail2020 .badge {
+  color: #fff;
+  background-color: #fff;
+}
