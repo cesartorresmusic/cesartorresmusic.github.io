@@ -27,6 +27,18 @@
     width: auto;
 }
 
+.fa-instagram2016 {
+    content: url('../img/instagram2016_inv.svg');
+    height: 0.89em;
+    width: auto;
+}
+
+.fa-tiktok2025 {
+    content: url('../img/tiktok2025.svg');
+    height: 0.89em;
+    width: auto;
+}
+
 .fa {
     font-size: 2em; }
 

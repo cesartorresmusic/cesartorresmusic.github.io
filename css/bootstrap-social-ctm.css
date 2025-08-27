@@ -1102,3 +1102,52 @@ fieldset[disabled] .btn-gmail2020.active {
   color: #fff;
   background-color: #fff;
 }
+
+.btn-instagram2016 {
+    color: #f0f0f0;
+    background-color: #e0e0e0;
+    border-color: #e0e0e0; }
+    .btn-instagram2016:hover {
+        color: #f0f0f0;
+        background-color: #f0f0f0;
+        border-color: #f0f0f0; }
+    .btn-instagram2016:focus, .btn-instagram2016.focus {
+        color: #f0f0f0;
+        background-color: #f0f0f0;
+        border-color: #f0f0f0;
+        box-shadow: 0 0 0 0.2rem rgba(213, 216, 218, 0.5); }
+    .btn-instagram2016.disabled, .btn-instagram2016:disabled {
+        color: #f0f0f0;
+        background-color: #e0e0e0;
+        border-color: #e0e0e0; }
+    .btn-instagram2016:not(:disabled):not(.disabled):active, .btn-instagram2016:not(:disabled):not(.disabled).active, .show > .btn-instagram2016.dropdown-toggle {
+        color: #f0f0f0;
+        background-color: #f0f0f0;
+        border-color: #f0f0f0; }
+        .btn-instagram2016:not(:disabled):not(.disabled):active:focus, .btn-instagram2016:not(:disabled):not(.disabled).active:focus, .show > .btn-instagram2016.dropdown-toggle:focus {
+        box-shadow: 0 0 0 0.2rem rgba(213, 216, 218, 0.5); }
+
+.btn-tiktok2025 {
+    color: #f0f0f0;
+    background-color: #e0e0e0;
+    border-color: #e0e0e0; }
+    .btn-tiktok2025:hover {
+        color: #f0f0f0;
+        background-color: #f0f0f0;
+        border-color: #f0f0f0; }
+    .btn-tiktok2025:focus, .btn-tiktok2025.focus {
+        color: #f0f0f0;
+        background-color: #f0f0f0;
+        border-color: #f0f0f0;
+        box-shadow: 0 0 0 0.2rem rgba(213, 216, 218, 0.5); }
+    .btn-tiktok2025.disabled, .btn-tiktok2025:disabled {
+        color: #f0f0f0;
+        background-color: #e0e0e0;
+        border-color: #e0e0e0; }
+    .btn-tiktok2025:not(:disabled):not(.disabled):active, .btn-tiktok2025:not(:disabled):not(.disabled).active, .show > .btn-tiktok2025.dropdown-toggle {
+        color: #f0f0f0;
+        background-color: #f0f0f0;
+        border-color: #f0f0f0; }
+        .btn-tiktok2025:not(:disabled):not(.disabled):active:focus, .btn-tiktok2025:not(:disabled):not(.disabled).active:focus, .show > .btn-tiktok2025.dropdown-toggle:focus {
+        box-shadow: 0 0 0 0.2rem rgba(213, 216, 218, 0.5); }
+
