@@ -1,5 +1,5 @@
-// Version: 1.0.8
-import { useState, useEffect, ElementType } from 'react';
+// Version: 1.0.9
+import { useState, useEffect, type ElementType } from 'react';
 import { Menu, X, BookOpen, Music, GraduationCap, Award, PlaySquare, Mail, ExternalLink, ChevronRight, PlayCircle } from 'lucide-react';
 import { FaYoutube, FaInstagram, FaTiktok, FaLinkedinIn } from 'react-icons/fa6';
 
@@ -76,7 +76,6 @@ const Navbar = () => {
 const Hero = () => {
   return (
     <section id="inicio" className="relative min-h-screen flex items-center justify-center pt-20">
-      {/* Background Image overlay using the colorful Chaouen jpg */}
       <div 
         className="absolute inset-0 z-0 bg-cover bg-no-repeat"
         style={{ 
@@ -116,12 +115,10 @@ const BookPromo = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="bg-zinc-900 rounded-3xl p-8 md:p-12 shadow-2xl border border-zinc-800 flex flex-col md:flex-row items-center gap-12 relative overflow-hidden">
           
-          {/* Decorative elements */}
           <div className="absolute -top-24 -right-24 w-64 h-64 bg-sky-500/10 rounded-full blur-3xl"></div>
           <div className="absolute -bottom-24 -left-24 w-64 h-64 bg-sky-500/10 rounded-full blur-3xl"></div>
 
           <div className="w-full md:w-1/3 flex justify-center">
-            {/* Mockup representation of the book */}
             <div className="relative group perspective-1000">
               <div className="w-48 md:w-64 aspect-[2/3] bg-zinc-800 rounded-r-xl rounded-l-sm shadow-2xl border-l-8 border-sky-600 relative overflow-hidden transform transition-transform duration-500 group-hover:rotate-y-12">
                 <img 
@@ -129,7 +126,6 @@ const BookPromo = () => {
                   alt="La Guitarrita de los Coj*nes Book Cover" 
                   className="w-full h-full object-cover"
                 />
-                {/* 3D Lighting Overlays */}
                 <div className="absolute right-0 top-0 bottom-0 w-4 bg-gradient-to-r from-transparent to-black/30 rounded-r-xl pointer-events-none"></div>
                 <div className="absolute left-0 top-0 bottom-0 w-2 bg-gradient-to-r from-black/20 to-transparent pointer-events-none"></div>
               </div>
@@ -166,7 +162,6 @@ const BookPromo = () => {
   );
 };
 
-// TypeScript interface defining the exact props our component receives
 interface TimelineItemProps {
   year: string;
   title: string;
@@ -179,7 +174,6 @@ interface TimelineItemProps {
 const TimelineItem = ({ year, title, subtitle, details, icon: Icon, isLast }: TimelineItemProps) => (
   <div className="relative pl-8 md:pl-0">
     <div className="md:flex items-start">
-      {/* Timeline Line & Dot (Mobile: Left, Desktop: 1/3) */}
       <div className="hidden md:block w-1/3 text-right pr-8 pt-1">
         <h4 className="text-xl font-bold text-sky-500">{year}</h4>
       </div>
@@ -348,7 +342,6 @@ const Videos = () => {
 const Contact = () => {
   return (
     <section id="contacto" className="py-24 bg-zinc-950 relative overflow-hidden">
-      {/* Background decoration */}
       <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-sky-500/5 rounded-full blur-[100px] -translate-y-1/2 translate-x-1/3 pointer-events-none"></div>
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -357,7 +350,6 @@ const Contact = () => {
           <p className="text-zinc-400 text-lg">Para clases, colaboraciones o preguntas sobre los materiales didácticos.</p>
         </div>
 
-        {/* Social Links Row */}
         <div className="flex justify-center gap-6 mb-10">
           <a href="https://www.youtube.com/@tresdeseptiembremusic" target="_blank" rel="noopener noreferrer" className="p-3 bg-zinc-900 border border-zinc-800 hover:bg-sky-500 hover:border-sky-500 hover:text-zinc-950 rounded-full transition-all text-zinc-300 shadow-lg hover:-translate-y-1" aria-label="YouTube">
             <FaYoutube className="w-6 h-6" />
@@ -380,7 +372,6 @@ const Contact = () => {
           </div>
           
           <div className="w-full h-[600px] md:h-[700px] rounded-lg overflow-hidden bg-zinc-950 relative">
-             {/* Using the Google Form provided in original files */}
              <iframe 
                 src="https://docs.google.com/forms/d/e/1FAIpQLSdgrpmFGQFzj2Hnz-yY_HBTbXz80B8xdsNQuENncWjiepTSkw/viewform?embedded=true" 
                 className="w-full h-full border-0 absolute inset-0"
