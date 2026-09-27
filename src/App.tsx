@@ -1,5 +1,5 @@
-// Version: 1.0.7
-import React, { useState, useEffect } from 'react';
+// Version: 1.0.8
+import { useState, useEffect, ElementType } from 'react';
 import { Menu, X, BookOpen, Music, GraduationCap, Award, PlaySquare, Mail, ExternalLink, ChevronRight, PlayCircle } from 'lucide-react';
 import { FaYoutube, FaInstagram, FaTiktok, FaLinkedinIn } from 'react-icons/fa6';
 
@@ -166,7 +166,17 @@ const BookPromo = () => {
   );
 };
 
-const TimelineItem = ({ year, title, subtitle, details, icon: Icon, isLast }) => (
+// TypeScript interface defining the exact props our component receives
+interface TimelineItemProps {
+  year: string;
+  title: string;
+  subtitle: string;
+  details?: string[];
+  icon: ElementType;
+  isLast: boolean;
+}
+
+const TimelineItem = ({ year, title, subtitle, details, icon: Icon, isLast }: TimelineItemProps) => (
   <div className="relative pl-8 md:pl-0">
     <div className="md:flex items-start">
       {/* Timeline Line & Dot (Mobile: Left, Desktop: 1/3) */}
