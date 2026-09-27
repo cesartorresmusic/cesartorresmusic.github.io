@@ -236,8 +236,7 @@ const Biografia = () => {
       icon: Music,
       details: [
         "Ha grabado, tocado y compartido escenario con guitarristas como Carlos Chaouen, Alejandro Rivera, Antonio Hernando, Cuenta Atrás, Alberto Alcalá, Gema Cuéllar, El Kanka, Octavio Vargas, Miguel Lamas, Mar de Fondo, composición de letras y grabación de guitarras en el disco debut de Maret, subcampeona de Factor X España.",
-        "Lanzamiento de dos álbumes de estudio originales ('Cambio Climático' y 'Camaleones').",
-        "Composición de música, letras y grabación de guitarras para numerosos artistas, incluyendo el álbum debut de Maret."
+        "Lanzamiento de dos álbumes de estudio originales ('Cambio Climático' y 'Camaleones')."
       ]
     },
     {
