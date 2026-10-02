@@ -215,7 +215,7 @@ const Biografia = () => {
       subtitle: "Autónomo",
       icon: BookOpen,
       details: [
-        "Autor del libro instruccional de guitarra 'La Guitarrita de los cojones', publicado independientemente con más de 300 copias vendidas a nivel global.",
+        "Autor del libro instruccional de guitarra 'La Guitarrita de los cojones', publicado independientemente con cerca de 500 copias vendidas a nivel global.",
         "Creador de una activa comunidad digital de aprendizaje con más de 20.000 seguidores en redes sociales."
       ]
     },
